@@ -16,5 +16,15 @@ namespace AplicacionTrabajo
         {
             InitializeComponent();
         }
+
+        private void userControl12_Load(object sender, EventArgs e)
+        {
+            userControl12.Vecesjugadas();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
