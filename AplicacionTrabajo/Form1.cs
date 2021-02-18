@@ -17,14 +17,15 @@ namespace AplicacionTrabajo
             InitializeComponent();
         }
 
-        private void userControl12_Load(object sender, EventArgs e)
+        private void userControl14_Load(object sender, EventArgs e)
         {
-            userControl12.Vecesjugadas();
+            userControl14.Vecesjugadas();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+            label1.Visible = true;
+            label1.Text=userControl14.Vecesjugadas().ToString();
         }
     }
 }

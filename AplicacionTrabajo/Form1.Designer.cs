@@ -29,38 +29,50 @@ namespace AplicacionTrabajo
         /// </summary>
         private void InitializeComponent()
         {
-            this.userControl12 = new BibliotecaTrabajo.UserControl1();
-            this.button1 = new System.Windows.Forms.Button();
+            this.userControl14 = new BibliotecaTrabajo.UserControl1();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // userControl12
+            // userControl14
             // 
-            this.userControl12.Location = new System.Drawing.Point(0, -1);
-            this.userControl12.Name = "userControl12";
-            this.userControl12.propiedadNumero = 0;
-            this.userControl12.Size = new System.Drawing.Size(800, 450);
-            this.userControl12.TabIndex = 0;
-            this.userControl12.Load += new System.EventHandler(this.userControl12_Load);
+            this.userControl14.Location = new System.Drawing.Point(-3, -1);
+            this.userControl14.Name = "userControl14";
+            this.userControl14.propiedadNumero = 0;
+            this.userControl14.Size = new System.Drawing.Size(800, 450);
+            this.userControl14.TabIndex = 0;
             // 
-            // button1
+            // button2
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(256, 315);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(299, 46);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Ver veces jugadas";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(249, 310);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(224, 59);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Veces jugadas";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(588, 329);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(86, 31);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "label1";
+            this.label1.Visible = false;
             // 
             // Form1
             // 
-            this.BackColor = System.Drawing.Color.Lime;
-            this.ClientSize = new System.Drawing.Size(793, 438);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.userControl12);
+            this.ClientSize = new System.Drawing.Size(877, 465);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.userControl14);
             this.Name = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -69,6 +81,10 @@ namespace AplicacionTrabajo
         private BibliotecaTrabajo.UserControl1 userControl11;
         private BibliotecaTrabajo.UserControl1 userControl12;
         private System.Windows.Forms.Button button1;
+        private BibliotecaTrabajo.UserControl1 userControl13;
+        private BibliotecaTrabajo.UserControl1 userControl14;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1;
     }
 }
 
